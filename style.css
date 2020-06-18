@@ -25,3 +25,9 @@ aside {
     width: 250px;
     border-right: 1px solid #111;
 }
+
+button {
+    background-color: #fff;
+    border: solid 1px #111;
+    border-radius: 5px;
+}
