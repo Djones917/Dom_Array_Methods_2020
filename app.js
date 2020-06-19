@@ -1,1 +1,1 @@
-console.log("Connected!");
+const main = document.getElementById('main');
