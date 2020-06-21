@@ -4,3 +4,18 @@ const doubleBtn = document.getElementById('double');
 const showMillionairesBtn = document.getElementById('show-millionaires');
 const sortBtn = document.getElementById('sort');
 const calculateWealthBtn = document.getElementById('calculate-wealth');
+
+
+
+
+
+let data = [];
+
+
+
+
+
+// Fetch random user and add money
+function getRandomUser() {
+    
+}
