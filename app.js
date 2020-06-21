@@ -16,6 +16,6 @@ let data = [];
 
 
 // Fetch random user and add money
-function getRandomUser() {
-    
+async function getRandomUser() {
+    fetch('https://randomuser.me/api');
 }
