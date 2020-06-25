@@ -32,3 +32,8 @@ async function getRandomUser() {
 
 
 // Add new Object to data array
+functon addData() {
+    data.push(obj);
+
+    updateDom();
+}
