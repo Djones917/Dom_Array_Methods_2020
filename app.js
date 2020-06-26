@@ -37,3 +37,14 @@ functon addData() {
 
     updateDom();
 }
+
+
+// Update DOM
+function updateDom(providedData = data) {
+   // Clear main div
+   main.innerHTML = `<h2><strong>Person</strong> Wealth</h2>`;
+
+   providedData.forEach(item => {
+
+   });
+}
