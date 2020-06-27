@@ -32,7 +32,7 @@ async function getRandomUser() {
 
 
 // Add new Object to data array
-functon addData() {
+function addData(obj) {
     data.push(obj);
 
     updateDom();
@@ -47,6 +47,7 @@ function updateDom(providedData = data) {
    providedData.forEach(item => {
       const element = document.createElement('div');
       element.classList.add('person');
-      element.innerHTML = `<strong>${item.name}</strong>`;
+      element.innerHTML = `<strong>${item.name}</strong> ${item.money}`;
+      main.appendChild(element);
    });
 }
