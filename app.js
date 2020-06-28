@@ -51,3 +51,7 @@ function updateDom(providedData = data) {
       main.appendChild(element);
    });
 }
+
+
+// Form Money
+
