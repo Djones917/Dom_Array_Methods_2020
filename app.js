@@ -59,3 +59,10 @@ function formatMoney(number) {
 }
 
 
+
+
+
+// Event Listeners
+addUserBtn.addEventListener('click', getRandomUser);
+
+
