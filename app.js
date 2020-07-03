@@ -15,6 +15,9 @@ let data = [];
 getRandomUser();
 
 
+
+
+
 // Fetch random user and add money
 async function getRandomUser() {
     const res = await fetch('https://randomuser.me/api');
@@ -64,5 +67,6 @@ function formatMoney(number) {
 
 // Event Listeners
 addUserBtn.addEventListener('click', getRandomUser);
+doubleBtn.addEventListener('click', doubleMoney);
 
 
