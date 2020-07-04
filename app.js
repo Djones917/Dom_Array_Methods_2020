@@ -34,6 +34,12 @@ async function getRandomUser() {
 }
 
 
+// Double Everyone's Money
+function doubleMoney() {
+
+}
+
+
 // Add new Object to data array
 function addData(obj) {
     data.push(obj);
