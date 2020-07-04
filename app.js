@@ -36,7 +36,11 @@ async function getRandomUser() {
 
 // Double Everyone's Money
 function doubleMoney() {
+   data = data.map((user) => {
+       return { ...user };
+   });
 
+   updateDom();
 }
 
 
