@@ -52,6 +52,14 @@ function sortByRichest() {
 }
 
 
+// Filter Millionaires
+function showMillionaires() {
+   data = data.filter(user => user.money > 1000000);
+
+   updateDom();
+}
+
+
 // Add new Object to data array
 function addData(obj) {
     data.push(obj);
